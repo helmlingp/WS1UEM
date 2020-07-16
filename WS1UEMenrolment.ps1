@@ -6,7 +6,7 @@
 .DESCRIPTION
    
 .EXAMPLE
-  .\alibabaenrolment.ps1
+  .\WS1UEMenrolment.ps1
 #>
 
 [CmdletBinding()]
