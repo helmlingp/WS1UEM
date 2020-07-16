@@ -1,0 +1,22 @@
+<Add>
+<CmdID>2</CmdID>
+<Item>
+    <Target> <LocURI>./User/Vendor/MSFT/EnterpriseModernAppManagement/AppManagement/AppStore/AirWatchLLC.VMwareWorkspaceONE_htcwkw4rx2gx4/AppSettingPolicy/catalogurl</LocURI>
+    </Target>
+    <Meta>
+       <Format xmlns="syncml:metinf">chr</Format>
+    </Meta>
+    <Data>https://ws1access.vidmpreview.com</Data>
+</Item>
+</Add>
+<Delete>
+<CmdID>2</CmdID>
+<Item>
+    <Target> <LocURI>./User/Vendor/MSFT/EnterpriseModernAppManagement/AppManagement/AppStore/AirWatchLLC.VMwareWorkspaceONE_htcwkw4rx2gx4/AppSettingPolicy/catalogurl</LocURI>
+    </Target>
+    <Meta>
+       <Format xmlns="syncml:metinf">chr</Format>
+    </Meta>
+    <Data></Data>
+</Item>
+</Delete>

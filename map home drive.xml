@@ -1,0 +1,13 @@
+<wap-provisioningdoc id=“c14e8e45-792c-4ec3-88e1-be121d8c33dc” name=“customprofile”>
+  <characteristic type=“com.airwatch.winrt.powershellcommand” uuid=“7957d046-7765-4422-9e39-6fd5eef38174">
+  <parm name=“PowershellCommand” value='$user=([adsisearcher]"samaccountname=$env:username").FindOne().GetDirectoryEntry()
+  $user.HomeDrive
+  $user.HomeDirectory
+  New-PSDrive -Name $user.HomeDrive.Replace(':','') -Root $user.HomeDirectory -PSProvider FileSystem -Scope Global -Persist'/>
+ </characteristic>
+</wap-provisioningdoc>
+
+$user=([adsisearcher]"samaccountname=$env:username").FindOne().GetDirectoryEntry()
+$user.HomeDrive
+$user.HomeDirectory
+New-PSDrive -Name $user.HomeDrive.Replace(':','') -Root $user.HomeDirectory -PSProvider FileSystem -Scope Global -Persist

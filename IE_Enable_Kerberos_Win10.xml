@@ -1,0 +1,39 @@
+<Replace>
+	<CmdID>2</CmdID>
+	<Item>
+		<Meta>
+			<Format>chr</Format>
+			<Type>text/plain</Type>
+		</Meta>
+		<Target>
+			<LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/IncludeAllLocalSites</LocURI>
+		</Target>
+		<Data>&lt;enabled/&gt;&lt;data id=&quot;IZ_IncludeUnspecifiedLocalSites&quot; value=&quot;1&quot;/&gt;</Data>
+	</Item>
+</Replace>
+<Replace>
+	<CmdID>3</CmdID>
+	<Item>
+		<Meta>
+			<Format>chr</Format>
+			<Type>text/plain</Type>
+		</Meta>
+		<Target>
+			<LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/IncludeAllNetworkPaths</LocURI>
+		</Target>
+		<Data>&lt;enabled/&gt;&lt;data id=&quot;IZ_UNCAsIntranet&quot; value=&quot;1&quot;/&gt;</Data>
+	</Item>
+</Replace>
+<Replace>
+	<CmdID>4</CmdID>
+	<Item>
+		<Meta>
+			<Format>chr</Format>
+			<Type>text/plain</Type>
+		</Meta>
+		<Target>
+			<LocURI>./Device/Vendor/MSFT/Policy/Config/InternetExplorer/AllowSiteToZoneAssignmentList</LocURI>
+		</Target>
+		<Data>&lt;Enabled/&gt;&lt;Data id=&quot;IZ_ZonemapPrompt&quot; value=&quot;eucocto.vidmpreview.com&#xF000;1&#xF000;ctovesc.fulcrum.local&#xF000;1&quot;/&gt;</Data>
+	</Item>
+</Replace>

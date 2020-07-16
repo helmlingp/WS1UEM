@@ -1,0 +1,8 @@
+<wap-provisioningdoc id="c14e8e45-792c-4ec3-88e1-be121d8c33dc" name="customprofile">
+ <characteristic type="com.airwatch.winrt.powershellcommand" uuid="7957d046-7765-4422-9e39-6fd5eef38174">
+ <parm name="PowershellCommand" value="Add-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon -Name 'DefaultUserName' -Value 'USERNAME' -Force"/>
+ <parm name="PowershellCommand" value="Add-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon -Name 'DefaultPassword' -Value 'PASSWORD' -Force"/>
+ <parm name="PowershellCommand" value="Add-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon -Name 'AutoAdminLogon' -Value '1' -Force"/>
+ <parm name="PowershellCommand" value="Add-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon -Name 'DefaultDomain' -Value 'DOMAIN.FQDN' -Force"/>
+</characteristic>
+</wap-provisioningdoc>

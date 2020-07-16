@@ -1,0 +1,53 @@
+DEVICE PROFILE CUSTOM CSP
+<Replace>
+	<CmdID>2</CmdID>
+	<Item>		
+        <Target><LocURI>./Device/Vendor/MSFT/Policy/Config/OneDriveNGSC~Policy~OneDriveNGSC/KFMOptInNoWizard</LocURI></Target>
+		<Data><![CDATA[<enabled/> <data id="KFMOptInNoWizard_TextBox" value="1111-2222-3333-4444-5555"/> <data 
+        id="KFMOptInNoWizard_Dropdown" value="0"/>]]></Data>
+	</Item>
+</Replace>
+<Replace>
+	<CmdID>3</CmdID>
+	<Item>		
+		<Target><LocURI>./Device/Vendor/MSFT/Policy/Config/OneDriveNGSC~Policy~OneDriveNGSC/KFMBlockOptOut</LocURI></Target>
+		<Data><![CDATA[<enabled/>]]></Data>
+	</Item>
+</Replace>
+<Replace>
+	<CmdID>4</CmdID>
+	<Item>		
+		<Target><LocURI>./User/Vendor/MSFT/Policy/Config/OneDriveNGSC~Policy~OneDriveNGSC/DisableFRETutorial</LocURI></Target>
+		<Data><![CDATA[<enabled/>]]></Data>
+	</Item>
+</Replace>
+<Replace>
+	<CmdID>5</CmdID>
+	<Item>		
+		<Target><LocURI>./Device/Vendor/MSFT/Policy/Config/OneDriveNGSC~Policy~OneDriveNGSC/FilesOnDemandEnabled</LocURI></Target>
+		<Data><![CDATA[<enabled/>]]></Data>
+	</Item>
+</Replace>
+<Replace>
+	<CmdID>6</CmdID>
+	<Item>		
+		<Target><LocURI>./Device/Vendor/MSFT/Policy/Config/OneDriveNGSC~Policy~OneDriveNGSC/SilentAccountConfig</LocURI></Target>
+		<Data><![CDATA[<enabled/>]]></Data>
+	</Item>
+</Replace>
+
+USER PROFILE CUSTOM CSP
+<Replace>
+	<CmdID>1</CmdID>
+	<Item>		
+		<Target><LocURI>./User/Vendor/MSFT/Policy/Config/OneDriveNGSC~Policy~OneDriveNGSC/DefaultRootDir</LocURI></Target>
+		<Data><![CDATA[<enabled/><data id="DefaultRootDirList" value="1111-2222-3333-4444&#xF000;%UserProfile%"/>]]></Data>
+	</Item>
+</Replace>
+<Replace>
+	<CmdID>2</CmdID>
+	<Item>
+		<Target><LocURI>./User/Vendor/MSFT/Policy/Config/OneDriveNGSC~Policy~OneDriveNGSC/DisableCustomRoot</LocURI></Target>
+		<Data><![CDATA[<enabled/><data id="DisableCustomRootList" value="1111-2222-3333-4444&#xF000;1"/>]]></Data>
+	</Item>
+</Replace>
