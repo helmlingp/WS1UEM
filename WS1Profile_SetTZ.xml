@@ -1,0 +1,45 @@
+https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-timelanguagesettings#timelanguagesettings-configuretimezone
+https://support.microsoft.com/en-au/help/973627/microsoft-time-zone-index-values
+
+<Replace>
+    <CmdID>1</CmdID>
+    <Item>
+    <Target>
+        <LocURI>
+        ./Device/Vendor/MSFT/Policy/Config/TimeLanguageSettings/ConfigureTimeZone
+        </LocURI>
+    </Target>
+    <Meta>
+        <Format xmlns="syncml:metinf">chr</Format>
+        <Type>text/plain</Type>
+    </Meta>
+    <Data>A.U.S. Eastern Standard Time</Data>
+    </Item>
+</Replace>
+
+<Replace>
+    <CmdID>1</CmdID>
+    <Item>
+    <Target>
+        <LocURI>
+        ./Device/Vendor/MSFT/Policy/Config/TimeLanguageSettings/ConfigureTimeZone
+        </LocURI>
+    </Target>
+    <Meta>
+        <Format xmlns="syncml:metinf">chr</Format>
+        <Type>text/plain</Type>
+    </Meta>
+    <Data>UTC</Data>
+    </Item>
+</Replace>
+
+<#OLD#>
+<Replace>
+	<CmdID>1</CmdID>
+	<Item>
+		<Target>
+			<LocURI>./Device/Vendor/MSFT/Policy/Config/TimeLanguageSettings/ConfigureTimeZone</LocURI>
+		</Target>
+		<Data>&lt;enabled/&gt;&lt;data id=&quot;Set time zone&quot; value=&quot;A.U.S. Eastern Standard Time&quot;/&gt;</Data>
+	</Item>
+</Replace>
